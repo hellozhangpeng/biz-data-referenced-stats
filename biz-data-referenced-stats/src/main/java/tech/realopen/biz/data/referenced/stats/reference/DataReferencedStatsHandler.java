@@ -1,4 +1,4 @@
-package com.example.demo.reference;
+package tech.realopen.biz.data.referenced.stats.reference;
 
 /** @author ZhangPeng */
 public interface DataReferencedStatsHandler {

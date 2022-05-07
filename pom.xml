@@ -5,12 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.realopen</groupId>
-    <artifactId>zp-biz</artifactId>
+    <artifactId>easybiz</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
 
     <modules>
         <module>biz-data-referenced-stats</module>
+        <module>easybiz-demo</module>
     </modules>
 
     <dependencyManagement>
@@ -19,6 +20,7 @@
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
                 <version>5.8.2</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
